@@ -1,0 +1,16 @@
+{
+    "name" : "php unit testing",
+    "description": "Test",
+    "require": {
+        "php":">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"3.7.*",
+        "phpspec/prophecy":"~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CricBuzz\\Cricket\\": "src/"
+        }
+    }
+}
